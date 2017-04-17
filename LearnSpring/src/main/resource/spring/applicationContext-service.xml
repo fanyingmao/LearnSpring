@@ -6,10 +6,5 @@
     <bean id="itemsService" class="com.fym.learnspring.service.impl.ItemsServiceImpl"/>
 
 
-    <bean id="OutputHelper" class="com.fym.learnspring.controller.OutputHelper">
-        <property name="outputGenerator" ref="JsonOutputGenerator" />
-    </bean>
 
-    <bean id="CsvOutputGenerator" class="com.fym.learnspring.controller.CsvOutputGenerator" />
-    <bean id="JsonOutputGenerator" class="com.fym.learnspring.controller.JsonOutputGenerator" />
 </beans>

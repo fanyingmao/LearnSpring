@@ -11,7 +11,6 @@ public class HelloWorldController {
 
     @RequestMapping(value="/index", method = {RequestMethod.GET})
     public ModelAndView index(){
-        
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("message", "Hello World!");  
         modelAndView.setViewName("hellow");
